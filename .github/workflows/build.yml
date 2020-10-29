@@ -24,7 +24,7 @@ jobs:
         run: |
           DOCKER_USERNAME=lovellfelix
           DOCKER_IMAGE=lovellfelix/ghost-s3-storage
-          DOCKER_PLATFORMS=linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
+          DOCKER_PLATFORMS=linux/amd64,linux/arm/v7,linux/arm64
           VERSION=edge
           if [[ $GITHUB_REF == refs/tags/* ]]; then
             TAG=${GITHUB_REF#refs/tags/}
