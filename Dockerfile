@@ -1,4 +1,4 @@
-FROM ghost:3.35.5-alpine
+FROM ghost:3.36.0
 
 WORKDIR /var/lib/ghost
 
