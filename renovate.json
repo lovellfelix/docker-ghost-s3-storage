@@ -1,4 +1,15 @@
 {
+  "enabled": true,
+  "timezone": "America/New_York",
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dashboard",
+  "commitMessageSuffix": "[ci-skip]",
+  "commitBody": "Signed-off-by: Lovell Felix <lovellfelix@users.noreply.github.com>",
+  // Do not notify on closed unmerged PRs
+  "suppressNotifications": ["prIgnoreNotification"],
+  // Do not rebase PRs
+  "rebaseWhen": "conflicted",
+  "assignees": ["@lovellfelix"],
   "extends": [
     "config:base"
   ]
