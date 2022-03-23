@@ -1,4 +1,4 @@
-FROM ghost:4.40.0
+FROM ghost:4.41.1
 
 WORKDIR /var/lib/ghost
 
